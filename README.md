@@ -1,27 +1,39 @@
-# PwaDemo
+# Una aplicacion de Ejemplo para el CodeLab 
+<img width="928" alt="ccf1dd30be16625f475e8a348c89e11f" src="https://drive.google.com/open?id=1lOh2B1GrNdPCpFWlUSba3gtZ8R7jyScv">
+## Prerequisitos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0-rc.2.
+1. Tener la ultima version de `node`, `npm` instalada.
+2. Tener `yarn` instalado es recomendado.
+3. Cualquier servidor web statico. Recomendado:
+- [http-server](https://www.npmjs.com/package/http-server
+). Opcion Preferidad.
+- [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/). Opcion alternativa.
+- [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/). Opcion alternativa.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installacion
+1. Clone the repo
+2. 
+```bash
+yarn
+```
+or
+```bash
+npm install
+```
+## Instalacion/Actualizacion de Angular CLI
 
-## Code scaffolding
+```bash
+npm uninstall -g angular-cli
+npm uninstall -g @angular/cli
+npm cache clean
+npm install -g @angular/cli@latest
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ve la versión:
+```bash
+npm list @angular/cli version -g
+```
+La version tiene que ser al menos `1.6.0-rc.0`
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
