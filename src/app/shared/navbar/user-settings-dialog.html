@@ -1,0 +1,28 @@
+<form fxFlex="500px" fxFlex.gt-xs="500px" fxFlex.xs="285px" #form="ngForm"  ngNativeValidate>
+  <div fxLayout="column" fxLayoutGap="24px">
+    <h1 matDialogTitle>General</h1>
+    <div fxLayout="row" >
+      <mat-form-field >
+        <input matInput placeholder="Enter your Email" value="edison@gmail.com">
+      </mat-form-field>
+    </div>
+    <mat-form-field>
+      <div fxLayout="row" fxLayoutAlign="start center">
+        <input matInput placeholder="Username" value="edison">
+      </div>
+    </mat-form-field>
+    <h1 matDialogTitle>Change Password</h1>
+    <mat-form-field>
+    <input type="password" matInput placeholder="New Password" value="edison@gmail.com">
+    </mat-form-field>
+    <mat-form-field>
+    <input type="password" matInput placeholder="Confirm New Password" value="edison">
+    </mat-form-field>
+  </div>
+  <mat-dialog-actions align="end">
+    <button mat-button type="button">Cancel</button>
+    <button mat-button color="accent">Save User</button>
+  </mat-dialog-actions>
+</form>
+
+

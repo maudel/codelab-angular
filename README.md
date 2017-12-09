@@ -8,11 +8,10 @@
 - [http-server](https://www.npmjs.com/package/http-server
 ). Opcion Preferidad.
 - [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/). Opcion alternativa.
-- [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/). Opcion alternativa.
 
 
 ## Installacion
-1. Clone the repo
+1. Clonarse el repo
 2. 
 ```bash
 yarn
@@ -34,6 +33,6 @@ Ve la versión:
 ```bash
 npm list @angular/cli version -g
 ```
-La version tiene que ser al menos `1.6.0-rc.0`
+La version tiene que ser al menos `1.6.0`
 
 
