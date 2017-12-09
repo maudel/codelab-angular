@@ -7,7 +7,6 @@
 * [Step 5](./STEP_4.md)
 * [Step 6](./STEP_6.md)
 * [Step 7](./STEP_7.md)
-* [Step 8](./STEP_8.md)
 * [Step 9](./STEP_9.md)
 * [Step 10](./STEP_10.md)
 
@@ -15,17 +14,16 @@
 
 Aqui te explicaremos como instalar l Angular Material en tu aplicacion your Angular application.
 
-* Importa `MaterialModule` de `@angular/material` y usala dentro del array de imports de tu modulo.
-* Since Angular Material depends on animations, the `BrowserAnimationsModule` needs to be included as well.
+* Importa `MaterialModule` de` @ angular / material` y usala dentro del conjunto de importaciones de tu módulo.
+* Dado que el material angular depende de las animaciones, el `BrowserAnimationsModule` necesita ser incluido también.
 
-> Since we will also be using flexbox CSS, let's also include the `@angular/flex-layout` library.
+> Como también usaremos Flexbox CSS, también incluiremos la biblioteca `@ angular / flex-layout`.
 
 ```terminal
 npm install @angular/material @angular/flex-layout --save
 ```
 
-Modify the following files to use Angular Material and FlexLayout in the application.
-
+Modifique los siguientes archivos para usar Angular Material y FlexLayout en la aplicación.
 ###### File: `src/app/app.module.ts`
 
 
@@ -110,8 +108,7 @@ html, body {
 
 #### 1. FlexLayout + Body
 
-We use flex properties on the `html` and `body` because they are not part of what markup `<app-root>Loading...</app-root>` that Angular bootstraps. This can be easily enough be fixed when bootstraping a component that has `body` as selector. 
-
+Usamos propiedades de flexión en `html` y` body` porque no son parte del marcado `<app-root> Loading ... </ app-root>` que Angular arranca. Esto se puede solucionar con facilidad cuando se realiza un bootstraping de un componente que tiene `body` como selector.
 ###### File: `src/app/app.component.ts`
 
 ```js

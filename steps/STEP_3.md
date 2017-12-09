@@ -7,14 +7,14 @@
 * [Step 5](./STEP_5.md)
 * [Step 6](./STEP_6.md)
 * [Step 7](./STEP_7.md)
-* [Step 8](./STEP_8.md)
 * [Step 9](./STEP_9.md)
 * [Step 10](./STEP_10.md)
 
 ### Step #3 Task:
 
-Here you will have a tab group that will contain the users list within a nav-list component
 
+92/5000
+Aquí tendrá un grupo de pestañas que contendrá la lista de usuarios dentro de un componente nav-list
 ###### File:  `src/app/app.component.html`
 
 ```html

@@ -7,13 +7,12 @@
 * [Step 5](./STEP_5.md)
 * [Step 6](./STEP_6.md)
 * **Step 7 <-**
-* [Step 8](./STEP_8.md)
 * [Step 9](./STEP_9.md)
 * [Step 10](./STEP_10.md)
 
 ### Step #7 Task:
 
-Add themes with the [theming mixins](https://github.com/angular/material2/blob/master/docs/theming.md) provided by Material.
+Añade temas [theming mixins](https://github.com/angular/material2/blob/master/docs/theming.md) provided by Material.
 
 ###### File: `src/theme.scss`
 
@@ -30,10 +29,10 @@ $theme: mat-light-theme($primary, $accent);
 @include angular-material-theme($theme);
 ```
 
-You can choose your palettes out of the [Material Design Color Palettes spec](https://material.io/guidelines/style/color.html)
+Puede elegir sus paletas de la [Especificación de paletas de colores de Material Design] (https://material.io/guidelines/style/color.html)
 
-Tell **angular-cli** to also compile the themes file, because angular-cli uses webpack,
-The Angular CLI has a built-in plugin to compile scss for us, so all we have to do is include it in the styles section.
+Dile a ** angular-cli ** que también compile el archivo de temas, porque angular-cli usa el paquete web,
+Angular CLI tiene un complemento integrado para compilar scss para nosotros, por lo que todo lo que tenemos que hacer es incluirlo en la sección de estilos.
 
 ###### File: `angular-cli.json`
 
@@ -50,14 +49,14 @@ The Angular CLI has a built-in plugin to compile scss for us, so all we have to 
 }
 ```
 
-> The prebuilt theme that has been included in *Step 1* is now unused and can be deleted.
+> El tema precompilado que se incluyó en * Paso 1 * ahora no se utiliza y se puede eliminar.
 
 ### Tips
 
 #### 1. Angular CLI
 
-The Angular CLI won't notice the changes in the `angular-cli.json` file. Restarting the
-  serve task will do the trick.
+La CLI angular no notará los cambios en el archivo `angular-cli.json`. Reiniciando el
+   servir tarea hará el truco.
 
 ---
 

@@ -7,14 +7,12 @@
 * **Step 5 <-**
 * [Step 6](./STEP_6.md)
 * [Step 7](./STEP_7.md)
-* [Step 8](./STEP_8.md)
 * [Step 9](./STEP_9.md)
 * [Step 10](./STEP_10.md)
 
 ### Step #5 Task:
 
-Let's add *Selected Us*er functionality and show the selected user details in our details container
-
+Vamos a agregar la funcionalidad * Selected Us * er y mostrar los detalles del usuario seleccionado en nuestro contenedor de detalles
 ###### File:  `src/app/app.component.html`
 
 ```html
@@ -42,7 +40,7 @@ Let's add *Selected Us*er functionality and show the selected user details in ou
 </div>
 ```
 
-Let's select the first user from the users list for our initial view state
+Seleccione el primer usuario de la lista de usuarios para nuestro estado de vista inicial
 
 ###### File:  `src/app/app.component.ts`
 

@@ -7,21 +7,19 @@
 * [Step 5](./STEP_5.md)
 * [Step 6](./STEP_6.md)
 * [Step 7](./STEP_7.md)
-* [Step 8](./STEP_8.md)
 * [Step 9](./STEP_9.md)
 * [Step 10](./STEP_10.md)
 
 ### Step #2 Task:
 
-Here we will use the wireframe planning and layout to identify the components and attributes needed.
+Aquí utilizaremos la planificación y el diseño de wireframe para identificar los componentes y atributos necesarios.
+* Añadir  `<mat-toolbar>`, `<mat-sidenav-container>`, `<mat-sidenav>` elementos
 
-* Add the `<mat-toolbar>`, `<mat-sidenav-container>`, `<mat-sidenav>` containers
-
-  > **Note:** The `<mat-sidenav>` is the container for the Users **master list** view, and for now a simple
-  `<div>` is the container for the User **detail** view.
+  > **Nota:** El `<mat-sidenav>` is el contenedor **lista** vista, y por ahora es una simple contenedor
+  `<div>` es el contenedor para la lista de **detalles** .
   
-* Add the **fxLayout** and **fxFlex** attributes to configure the container layouts and sizing aspects
-* Use `mode="side"` and `opened` to lock the sidenav open on the left
+* Agregar  **fxLayout** y **fxFlex** atributos para configurar los layouts y configuracion de tamaño 
+* Usar `mode="side"` y `opened` para que no se pueda abrir el layout
 
 ###### File: `src/app/app.component.html`
 
@@ -46,7 +44,7 @@ Here we will use the wireframe planning and layout to identify the components an
 </div>
 ```
 
-Giving the host element a flex property of `1` to fill height and sidenav a default width of `320px`
+Dando al elemento padre el atributo flex de `1` para llenar la altura y la etiqueta sidenav con el ancho de `320px`
 
 ###### File:  `src/app/app.component.css`
 

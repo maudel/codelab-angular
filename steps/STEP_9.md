@@ -13,8 +13,7 @@
 
 ### Step #9 Task:
 
-Creating an Angular Material dialog.
-
+Creando un diálogo de Material Angular.
 ###### File: `src/app/app.component.html`
 
 ```html
@@ -27,7 +26,7 @@ Creating an Angular Material dialog.
   </button>
 ```
 
-A `fab` button at the bottom-right will be created to open the Angular Material dialog.
+Se creará un botón `fab` en la parte inferior derecha para abrir el diálogo Material angular.
 
 ###### File:  `src/app/app.component.css`
 
@@ -41,7 +40,7 @@ bottom: 16px;
 }
 ```
 
-The `fab` button needs some styling to place it in the right spot.
+El botón `fab` necesita un poco de estilo para colocarlo en el lugar correcto.
 
 ###### File:  `src/app/app.component.ts`
 
@@ -70,8 +69,8 @@ export class AppComponent {
 ...
 ```
 
-To be able to show dialogs, the `MatDialog` service needs to be injected. A function that is 
-referenced from the template will then open the dialog.
+Para poder mostrar diálogos, el servicio `MatDialog` necesita ser inyectado. Una función que es
+referenciado desde la plantilla abrirá el diálogo.
 
 ###### File:  `src/app/dialog/dialog.component.ts`
 
@@ -94,8 +93,8 @@ export class DialogComponent {}
 </mat-dialog-content>
 ```
 
-A dialog can be just a normal Angular component. You can use specific directives 
-like `mat-dialog-title`, `mat-dialog-content` or `mat-dialog-actions` to style your dialog.
+Un diálogo puede ser solo un componente angular normal. Puedes usar directivas específicas
+como `mat-dialog-title`,` mat-dialog-content` o `mat-dialog-actions` para darle estilo al diálogo.
 
 ###### File: `src/app/app.module.ts`
 
@@ -116,8 +115,8 @@ import {DialogComponent} from './dialog/dialog.component';
 export class AppModule {}
 ```
 
-Angular would not be able to compile the `DialogComponent` when calling `openAdminDialog` because
-the dialog component is not part of the given `NgModule`.
+Angular no podría compilar el `DialogComponent` cuando llama` openAdminDialog` porque
+el componente de diálogo no es parte del `NgModule` dado.
 
 ---
 

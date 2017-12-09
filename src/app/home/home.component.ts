@@ -54,7 +54,7 @@ export class HomeComponent implements OnInit {
       isCool: false
     },
     {
-      name: 'Ernesto Urbina',
+      name: 'Yamil Urbina',
       avatar: 'svg-10',
       details: 'Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Bubbli greplin stypi prezi mzinga heroku ' +
       'wakoopa, shopify airbnb dogster dopplr gooru jumo, reddit plickers edmodo stypi zillow etsy.',

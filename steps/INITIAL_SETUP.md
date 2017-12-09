@@ -7,7 +7,6 @@
 * [Step 5](./STEP_4.md)
 * [Step 6](./STEP_6.md)
 * [Step 7](./STEP_7.md)
-* [Step 8](./STEP_8.md)
 * [Step 9](./STEP_9.md)
 * [Step 10](./STEP_10.md)
 
@@ -61,11 +60,11 @@ export class AppModule { }
 
 ```
 
-These files contain the basic application components and bootstrapping instructions for our application. 
-*  The `index.html` file is the html entry point 
-*  The `main.ts` is the Webpack entry point
+Estos archivos contienen los componentes básicos de la aplicación y las instrucciones de arranque para nuestra aplicación.
+* El archivo `index.html` es el punto de entrada html
+* El `main.ts` es el punto de entrada del paquete web
 
-> **Note:** El archivo `angular-cli.json` simplemente configura nuestro angular-cli via webpack y carga todas las librerias.
+> ** Nota: ** El archivo`angular-cli.json` simplemente configura nuestro angular-cli via webpack y carga todas las librerias.
 
 #### Proximo Paso
 [Go to Step 1](./STEP_1.md)

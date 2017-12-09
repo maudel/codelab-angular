@@ -7,14 +7,12 @@
 * [Step 5](./STEP_5.md)
 * [Step 6](./STEP_6.md)
 * [Step 7](./STEP_7.md)
-* [Step 8](./STEP_8.md)
 * [Step 9](./STEP_9.md)
 * [Step 10](./STEP_10.md)
 
 ### Step #4 Task:
 
-Here you will use the `MatIconRegistry` service provided by Material which allows us to add a namespace for a group of svg's.
-
+Aquí utilizará el servicio `MatIconRegistry` provisto por Material que nos permite agregar un espacio de nombres para un grupo de svg's.
 
 ###### File: `src/app/app.component.html`
 
@@ -40,10 +38,9 @@ Here you will use the `MatIconRegistry` service provided by Material which allow
 ...
 ```
 
-By using the `addSvgIconSetInNamespace` function we provide a namespace that can be used with `mat-icon` 
-and the location of that svg group.
-By that, we can have `<mat-icon svgIcon="[namespace]:[id]">` and it would look the namespace and the id in it.
-
+Al usar la función `addSvgIconSetInNamespace` proporcionamos un espacio de nombres que se puede usar con` mat-icon`
+y la ubicación de ese grupo svg.
+Con eso, podemos tener `<mat-icon svgIcon =" [namespace]: [id] ">` y se vería el espacio de nombres y la identificación en él.
 ###### File:  `src/app/app.component.ts`
 
 ```ts
@@ -107,13 +104,11 @@ export class AppComponent {
 
 #### 1. Deep CSS Operators
 
-Using the `/deep/` prefix on selectors will cause the selector to be moved out of the view encapsulation.
-
+El uso del prefijo `/ deep /` en los selectores hará que el selector se mueva fuera de la encapsulación de vista.
 #### 2.  List Items
 
-Angular Material list items have a fixed height and won't expand to the height of the content.
-    Overwriting and forcing the height to `auto` allows the avatar to take full height.
-
+Los elementos de la lista Material angular tienen una altura fija y no se expandirán a la altura del contenido.
+     Sobrescribir y forzar la altura a `auto` permite que el avatar tome altura completa.
 ----
 
 

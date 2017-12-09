@@ -13,7 +13,7 @@
 
 ### Step #10 Task:
 
-Creating a form inside of the Angular Material dialog.
+Crear un formulario dentro del diálogo Material angular.
 
 ###### File: `src/app/dialog/dialog.component.html`
 
@@ -49,13 +49,13 @@ Creating a form inside of the Angular Material dialog.
 </form>
 ```
 
-As soon as a `<form>` element is placed inside of a component, Angular will create an Angular form
-automatically. 
+Tan pronto como un elemento `<form>` se coloca dentro de un componente, Angular creará una forma angular
+automáticamente.
 
 ##### Template-Driven Forms
 
-The form will contain different Material components; each with a `ngModel` directive on it. All components that are registered through `ngModel` and have an according `name` attribute will be included in the form's value. Once the form is valid and the form is being submitted, the form's value can be delivered
-back to the `AppComponent` and added to the array of `users`.
+El formulario contendrá diferentes componentes de Material; cada uno con una directiva `ngModel` en él. Todos los componentes que se registran a través de `ngModel` y tienen un atributo` name` de acuerdo se incluirán en el valor del formulario. Una vez que el formulario es válido y se envía el formulario, se puede entregar el valor del formulario
+volver al `AppComponent` y agregarlo a la matriz de` usuarios`.
 
 
 ###### File:  `src/app/dialog/dialog.component.ts`
@@ -76,8 +76,8 @@ export class DialogComponent {
 
 ```
 
-For components that are opened through the `MatDialog` service, the `MatDialogRef` can be injected
-using Depndency Injection. Use the `MatDialogRef` token to close and deliver data back to the origin component.
+Para los componentes que se abren a través del servicio `MatDialog`, se puede inyectar` MatDialogRef`
+usando Depnddency Injection. Utilice el token `MatDialogRef` para cerrar y devolver los datos al componente de origen.
 
 ###### File: `src/app/app.component.ts`
 
@@ -90,8 +90,8 @@ this.dialog.open(DialogComponent).afterClosed()
   });
 ```
 
-When opening a dialog using the `MatDialog` service, there will be a `afterClosed()` observable
-that will contain the result data from the `MatDialogRef`.
+Al abrir un diálogo usando el servicio `MatDialog`, habrá un` afterClosed () `observable
+que contendrá los datos del resultado de `MatDialogRef`.
 
 ###### File: `src/app/app.component.css`
 
@@ -103,11 +103,10 @@ that will contain the result data from the `MatDialogRef`.
 }
 ```
 
-Currently the `avatar` icon in the dialog does not have the styles from the `avatar` class.
+Actualmente el ícono `avatar` en el diálogo no tiene los estilos de la clase` avatar`.
 
-This is due to the fact that Angular encapsulates the selectors in components. Using the `/deep` 
-prefix will ensure that the selector also matches elements outside of the current component.
-
+Esto se debe al hecho de que Angular encapsula los selectores en los componentes. Usando el `/ deep`
+prefix se asegurará de que el selector también coincida con los elementos fuera del componente actual.
 --- 
 
 [Go to Summary](../README.md#summary)

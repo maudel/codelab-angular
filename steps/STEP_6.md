@@ -7,13 +7,12 @@
 * [Step 5](./STEP_5.md)
 * **Step 6 <-**
 * [Step 7](./STEP_7.md)
-* [Step 8](./STEP_8.md)
 * [Step 9](./STEP_9.md)
 * [Step 10](./STEP_10.md)
 
 ### Step #6 Task:
 
-Here we will use `mat-card` and `mat-slide-toggle` components from Angular Material.
+Aquí utilizaremos los componentes `mat-card` y` mat-slide-toggle` de Angular Material.
 
 ###### File:  `src/app/app.component.html`
 
@@ -44,16 +43,16 @@ Here we will use `mat-card` and `mat-slide-toggle` components from Angular Mater
 ### Tips
 
 #### 1. FlexLayout
-Using `fxLayout.sm="column"` tells the content to be a column container when the screen is small (breakpoint `960px`)
+El uso de `fxLayout.sm =" column "` le dice al contenido que debe ser un contenedor de columna cuando la pantalla es pequeña (punto de corte `960px`)
 
-Specifying a gap between the different children can be done by using 
-[`fxLayoutGap`](https://github.com/angular/flex-layout/wiki/Declarative-API-Overview) with a value of `16px`.
+Especificar un espacio entre los diferentes niños se puede hacer mediante el uso de
+[`fxLayoutGap`](https://github.com/angular/flex-layout/wiki/Declarative-API-Overview) con valor de `16px`.
 
 #### 2. HammerJS
 
-HammerJS handles all the user interactions and gestures for Material and simplifies the API.
+HammerJS maneja todas las interacciones y gestos del usuario para Material y simplifica la API.
 
-Including the `hammerjs` package in our Angular application using Webpack.
+Incluyendo el paquete `hammerjs` en nuestra aplicación angular usando Webpack.
 
 ###### File:  `src/app/app.module.ts`
 
